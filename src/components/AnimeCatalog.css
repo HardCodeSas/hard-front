@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #aaa6c9;
+  --background-color: #21213b;
+  --btn-background-color: #0c0d22;
+  --btn-border-color: #6c6889;
+}
+
+#Title {
+  color: var(--primary-color);
+}
+
+/* Cambiar el color del fondo de la tarjeta */
+.card {
+  background-color: var(--background-color);
+}
+
+/* Cambiar el color del texto del título */
+.card-title {
+  color: var(--primary-color);
+}
+
+/* Cambiar el color del borde de la tarjeta */  
+.card {
+  border-color: var(--background-color);
+}
+
+/* Cambiar el color del texto del botón (si es que agregas uno) */
+.btn {
+  color: var(--primary-color);
+  font-size: large;
+  background-color: var(--btn-background-color);
+  border-color: var(--btn-border-color);
+}
+
+#Srch {
+  color: var(--primary-color);
+}
+
+/* Cambiar el color de fondo de la página completa */
+body {
+  background-color: #00001a;
+}
+
+/* Cambiar el color del texto y el fondo del input */
+#search {
+  background-color: #21213b; /* Color de fondo */
+  color: #aaa6c9;            /* Color del texto */
+  border: 1px solid #6c6889; /* Color del borde */
+}
+
+#search::placeholder {
+  color: #6c6889; /* Color del texto del placeholder */
+}
+
+
+
+
+/*Modal*/
+
+/* Cambiar el color de fondo del modal */
+.custom-modal .modal-content {
+  background-color: #21213b; /* Fondo oscuro para el modal */
+  color: #aaa6c9; /* Texto de color claro */
+  border: none; /* Sin borde */
+}
+
+/* Cambiar el color del encabezado del modal */
+.custom-modal-header {
+  background-color: #2a2a45; /* Fondo ligeramente diferente para el encabezado */
+  border-bottom: 1px solid #6c6889; /* Borde inferior */
+}
+
+/* Estilo para el cuerpo del modal */
+.custom-modal-body {
+  background-color: #21213b; /* Mantener el fondo oscuro */
+  color: #aaa6c9; /* Asegurar que el texto sea legible */
+}
+
+/* Estilo para el pie del modal */
+.custom-modal-footer {
+  background-color: #2a2a45; /* Fondo para el pie del modal */
+  border-top: 1px solid #6c6889; /* Borde superior */
+}
+
+/* Botones dentro del modal */
+.custom-modal-footer .btn-primary {
+  background-color: #6c6889; /* Color personalizado para el botón primario */
+  border-color: #6c6889;
+}
+
+.custom-modal-footer .btn-secondary {
+  background-color: #3a3a5e; /* Color para el botón secundario */
+  border-color: #3a3a5e;
+}
+/* Estilo para la tabla dentro del modal */
+.custom-modal-body .table {
+  background-color: #2a2a45; /* Fondo oscuro para la tabla */
+  color: #aaa6c9; /* Texto de color claro */
+  border-color: #6c6889; /* Borde en color del esquema */
+}
+
+.custom-modal-body .table thead th {
+  background-color: #343a50; /* Fondo ligeramente más oscuro para el encabezado de la tabla */
+  color: #aaa6c9; /* Texto claro */
+  border-bottom: 1px solid #6c6889; /* Borde inferior en color del esquema */
+}
+
+.custom-modal-body .table tbody tr {
+  background-color: #21213b; /* Fondo para las filas */
+}
+
+.custom-modal-body .table tbody tr:hover {
+  background-color: #343a50; /* Fondo al pasar el cursor */
+}
+
+/* Estilo para el textarea dentro del modal */
+.custom-modal-body textarea {
+  background-color: #2a2a45; /* Fondo oscuro para el textarea */
+  color: #aaa6c9; /* Texto claro */
+  border: 1px solid #6c6889; /* Borde en color del esquema */
+  border-radius: 4px;
+}
+
+.custom-modal-body textarea::placeholder {
+  color: #6c6889; /* Color para el placeholder */
+}
+
+.custom-modal-body textarea:focus {
+  border-color: #8888aa; /* Color de borde más claro al enfocar */
+  box-shadow: 0 0 5px rgba(136, 136, 170, 0.5);
+}
